@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/sun.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #365486; 
+}
+
+.form {
+    align-self: center;
+    text-align: center;
+}
+
+
+.homeDiv {
+    align-self: center;
+    text-align: center;
+}
+
+input {
+    border-radius: 12px;
+    width: 75%;
+    height: 2rem;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+.city {
+    margin: 0.6rem 0;
+}
+
+.button {
+    cursor: pointer; 
+}
